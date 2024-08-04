@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import io
-from langchain_community.llms import OpenAI
+from langchain.llms import OpenAI
 import matplotlib.pyplot as plt
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
