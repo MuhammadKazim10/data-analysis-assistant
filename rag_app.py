@@ -22,7 +22,7 @@ else:
 
 # Function to process the uploaded CSV file
 def process_csv(file):
-    return pd.read_csv(io.StringIO(file.getvalue().decode("utf-8")))
+    return pd.read_csv(file)
 
 # Function to generate Python code based on the question
 def generate_code(df, question):
